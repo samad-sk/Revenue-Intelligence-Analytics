@@ -278,16 +278,17 @@ This helps identify high-performing regions that contribute most to revenue and 
 
 
 ## Key KPIs and Advanced Metrics
-### **1. Average Discount on Discounted Orders**
+### **1. Revenue Given as Discount (%)**
 
 **Visual Used:**
 Card
+<img width="362" height="340" alt="Image" src="https://github.com/user-attachments/assets/e26ba1d6-2732-41f1-939d-bffbfc8460ec" />
 
 **Implementation:**
 Calculated the average discount percentage only for transactions where a discount was applied.
 
 ```DAX 
-Average Discount % = AVERAGEX(
+Revenue Given as Discount (%) = AVERAGEX(
                                 FILTER(
                                         'Fact Table', 
                                         'Fact Table'[Discount Percentage] > 0),
