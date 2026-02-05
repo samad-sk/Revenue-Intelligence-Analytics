@@ -417,30 +417,20 @@ This metric highlights the rate of growth or decline over time, helping stakehol
 
 These KPIs provide a **complete period-over-period performance view**, showing both absolute and percentage change, which supports performance evaluation.
         
-  - Step 18 : The report was then published to Power BI Service.
- 
-
-
-
-
-
-
-
-![Publish_Message](https://user-images.githubusercontent.com/102996550/174094520-3a845196-97e6-4d44-8760-34a64abc3e77.jpg)
-
-# Snapshot of Dashboard (Power BI Service)
-
-![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
 
  
  # Report Snapshot (Power BI DESKTOP)
 
-<img width="1426" height="800" alt="Image" src="https://github.com/user-attachments/assets/5bb60c8f-40cc-4c30-8bde-53e42a357548" />
+<img width="1427" height="797" alt="Image" src="https://github.com/user-attachments/assets/60b8e4ad-8551-40f7-8eae-93612050ec08" />
 
 
 <img width="1420" height="792" alt="Image" src="https://github.com/user-attachments/assets/00f9f3d8-5162-4d65-ae30-895156e0e39c" />
 
 <img width="1421" height="798" alt="Image" src="https://github.com/user-attachments/assets/e1bce28b-66d4-4256-923b-9f8cde92edb6" />
+
+<img width="1425" height="792" alt="Image" src="https://github.com/user-attachments/assets/26e439fd-3e06-4207-8a6d-fe9fc0654951" />
+
+<img width="1422" height="798" alt="Image" src="https://github.com/user-attachments/assets/c148f25a-7de9-4984-9611-4524bcaf095c" />
 
 
 
