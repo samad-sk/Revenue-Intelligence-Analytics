@@ -306,10 +306,15 @@ This helps assess whether discounting strategies are driving sales effectively w
 
 
 
-### **2. Return on Discount**
+### **2. Return on Discount (ROD)**
 
 **Visual Used:**
-KPI Card
+Card
+
+
+<img width="363" height="327" alt="Image" src="https://github.com/user-attachments/assets/6fdc2aba-2c41-4971-93d1-d7bbfa1639e4" />
+
+
 
 **Implementation:**
 Measured how much profit is generated for every unit of discount offered.
@@ -332,6 +337,9 @@ The ROD value of 1.70 shows that for every ₹1 spent on discounts, the business
 **Visual Used:**
 Card
 
+
+
+
 **Implementation:**
 Counted the total number of transactions to measure overall order volume.
 
@@ -347,7 +355,11 @@ This KPI provides a quick view of business activity and helps track demand trend
 ####  Comparison Period Sales
 
 **Visual Used:**
-Bar Chart / Card
+Bar Chart and Card
+
+
+<img width="1425" height="793" alt="Image" src="https://github.com/user-attachments/assets/fb26dccf-fff4-452c-8ea4-6e27d516abbb" />
+
 
 **Implementation:**
 
@@ -362,11 +374,18 @@ The USERELATIONSHIP() function was used inside CALCULATE() to activate the secon
 **Insight:**
 This allows the business to evaluate sales performance in a different time frame without affecting the primary reporting period, enabling flexible period-over-period analysis.
 
+
+
+
 ---
 ### **5.  Sales Difference**
 
 **Visual Used:**
 Card
+
+
+<img width="213" height="156" alt="Image" src="https://github.com/user-attachments/assets/81863c6f-6651-4d59-b768-934c0c5a0034" />
+
 
 **Implementation:**
 Calculated the absolute difference between **comparison period sales** and **base period sales**.
@@ -380,6 +399,12 @@ This KPI shows how much sales have increased or decreased between two selected p
 
 **Visual Used:**
 Card
+
+
+<img width="236" height="162" alt="Image" src="https://github.com/user-attachments/assets/44cc1a19-a13c-4016-ac86-a15f2910c3fe" />
+
+
+
 
 **Implementation:**
 Divided the sales difference by base period sales to measure **percentage change in performance** between the two periods.
@@ -409,8 +434,16 @@ These KPIs provide a **complete period-over-period performance view**, showing b
  
  # Report Snapshot (Power BI DESKTOP)
 
- 
-![Dashboard_upload](https://user-images.githubusercontent.com/102996550/174074051-4f08287a-0568-4fdf-8ac9-6762e0d8fa94.jpg)
+<img width="1426" height="800" alt="Image" src="https://github.com/user-attachments/assets/5bb60c8f-40cc-4c30-8bde-53e42a357548" />
+
+
+<img width="1420" height="792" alt="Image" src="https://github.com/user-attachments/assets/00f9f3d8-5162-4d65-ae30-895156e0e39c" />
+
+<img width="1421" height="798" alt="Image" src="https://github.com/user-attachments/assets/e1bce28b-66d4-4256-923b-9f8cde92edb6" />
+
+
+
+
 
 # Insights
 Ah yes! Let’s include **the period-over-period numbers** in a human-friendly way with figures and percentages so it reads naturally:
