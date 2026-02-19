@@ -17,9 +17,10 @@ The dashboard was built using the following tools and technologies:
 ---
 ## 4. Data Source
 Source: Simulated retail sales dataset created for analytical and reporting purposes.
-The dataset represents transactional sales data including product details, customer information, promotional campaigns, pricing, discounts, and profit metrics. I
+The dataset represents transactional sales data including product details, customer information, promotional campaigns, pricing, discounts, and profit metrics.
+---
 
-### Key Features
+## Key Features
 - Interactive filters for Year, Quarter, and Month
 - Drill-down analysis by product, promotion, and location
 - KPIs highlighting revenue sacrificed to discounts and return on discount
@@ -80,7 +81,8 @@ City-level sales and profit analysis helps prioritize strong markets and improve
 **5. Operational Visibility:**  
 Order-level insights support deeper investigation into unusual discounts, low-profit transactions, or customer behavior patterns.
 
- # Report Snapshot (Power BI DESKTOP)
+ ## Report Snapshot (Power BI DESKTOP)
+ <img width="1788" height="736" alt="Image" src="https://github.com/user-attachments/assets/65b78ffb-7af6-4fed-b804-6366b6beb8ef" />
  <img width="1432" height="798" alt="Image" src="https://github.com/user-attachments/assets/a69fb2d0-fe3c-418a-b19e-892694921034" />
 <img width="1425" height="792" alt="Image" src="https://github.com/user-attachments/assets/c7c17ff2-f24a-49e6-87b2-06e39c162dcb" />
 <img width="1430" height="797" alt="Image" src="https://github.com/user-attachments/assets/9a1cae07-140f-4304-9131-fdad70f489b3" />
