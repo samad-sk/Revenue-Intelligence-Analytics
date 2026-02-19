@@ -1,15 +1,11 @@
-# Sales Dashboard
+# Revenue Intelligence: Sales, Profit & Discount Analysis
+### *Includes period-over-period comparisons, top/bottom product analysis, regional performance, and KPI tracking.*
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+### Dashboard Link : https://drive.google.com/drive/folders/1qbxzzC9Vi8yRpzOJ_t0rhXW-cSljy15H?usp=sharing
 
 ## Problem Statement
 
-The business generates large volumes of sales data, but currently lacks a clear and interactive way to track product performance, profitability, discounts, and regional sales. Management is unable to easily identify which products are driving revenue, which are causing losses, or how sales and profit are changing over time.
-
-Because of this, it is difficult to compare different time periods, evaluate the impact of discounts, and detect sales trends across cities and customer segments. These gaps lead to inefficient pricing, weak promotional decisions, and missed growth opportunities.
-
-This dashboard solves the problem by providing real-time visibility into sales, profit, quantity sold, net sales, and discount behavior, allowing users to analyze performance across products, locations, customers, and time to support better business decisions.
-
+A dynamic, interactive data visualization tool built to analyze revenue, profitability, discount impact, and product performance—focusing on time-based comparisons, regional trends, and growth insights to support data-driven decision-making.
 
 
 ## Project Objective
@@ -33,7 +29,6 @@ This dashboard solves the problem by providing real-time visibility into sales, 
 
 
 ## Data Description
-
 The dashboard is built using a star schema data model consisting of one fact table and multiple dimension tables:
 
 ### Fact Table
@@ -95,9 +90,6 @@ The dashboard is built using a star schema data model consisting of one fact tab
 - Additional calculated columns were added where necessary to support business analysis.
 
 
-
-
-
 ## Data Preparation
 - Before building the dashboard, the data was prepared and validated to ensure accuracy and consistency.
 - Loaded all datasets into the Power BI model
@@ -131,7 +123,6 @@ Calculated using:
 
 
 ### Relationship Preparation
-
 - Before creating relationships, key columns were checked to ensure:
 - Matching data types
 - No missing or inconsistent values
@@ -278,16 +269,19 @@ This helps identify high-performing regions that contribute most to revenue and 
 
 
 ## Key KPIs and Advanced Metrics
-### **1. Average Discount on Discounted Orders**
+### **1. Average Discount (%)**
 
 **Visual Used:**
 Card
+
+
+<img width="362" height="340" alt="Image" src="https://github.com/user-attachments/assets/e26ba1d6-2732-41f1-939d-bffbfc8460ec" />
 
 **Implementation:**
 Calculated the average discount percentage only for transactions where a discount was applied.
 
 ```DAX 
-Average Discount % = AVERAGEX(
+Average Discount (%) = AVERAGEX(
                                 FILTER(
                                         'Fact Table', 
                                         'Fact Table'[Discount Percentage] > 0),
@@ -303,10 +297,15 @@ This helps assess whether discounting strategies are driving sales effectively w
 
 
 
-### **2. Return on Discount**
+### **2. Return on Discount (ROD)**
 
 **Visual Used:**
-KPI Card
+Card
+
+
+<img width="363" height="327" alt="Image" src="https://github.com/user-attachments/assets/6fdc2aba-2c41-4971-93d1-d7bbfa1639e4" />
+
+
 
 **Implementation:**
 Measured how much profit is generated for every unit of discount offered.
@@ -329,6 +328,9 @@ The ROD value of 1.70 shows that for every ₹1 spent on discounts, the business
 **Visual Used:**
 Card
 
+
+
+
 **Implementation:**
 Counted the total number of transactions to measure overall order volume.
 
@@ -344,7 +346,11 @@ This KPI provides a quick view of business activity and helps track demand trend
 ####  Comparison Period Sales
 
 **Visual Used:**
-Bar Chart / Card
+Bar Chart and Card
+
+
+<img width="1425" height="793" alt="Image" src="https://github.com/user-attachments/assets/fb26dccf-fff4-452c-8ea4-6e27d516abbb" />
+
 
 **Implementation:**
 
@@ -359,11 +365,18 @@ The USERELATIONSHIP() function was used inside CALCULATE() to activate the secon
 **Insight:**
 This allows the business to evaluate sales performance in a different time frame without affecting the primary reporting period, enabling flexible period-over-period analysis.
 
+
+
+
 ---
 ### **5.  Sales Difference**
 
 **Visual Used:**
 Card
+
+
+<img width="213" height="156" alt="Image" src="https://github.com/user-attachments/assets/81863c6f-6651-4d59-b768-934c0c5a0034" />
+
 
 **Implementation:**
 Calculated the absolute difference between **comparison period sales** and **base period sales**.
@@ -378,6 +391,12 @@ This KPI shows how much sales have increased or decreased between two selected p
 **Visual Used:**
 Card
 
+
+<img width="236" height="162" alt="Image" src="https://github.com/user-attachments/assets/44cc1a19-a13c-4016-ac86-a15f2910c3fe" />
+
+
+
+
 **Implementation:**
 Divided the sales difference by base period sales to measure **percentage change in performance** between the two periods.
 
@@ -388,36 +407,31 @@ This metric highlights the rate of growth or decline over time, helping stakehol
 
 These KPIs provide a **complete period-over-period performance view**, showing both absolute and percentage change, which supports performance evaluation.
         
-  - Step 18 : The report was then published to Power BI Service.
- 
-
-
-
-
-
-
-
-![Publish_Message](https://user-images.githubusercontent.com/102996550/174094520-3a845196-97e6-4d44-8760-34a64abc3e77.jpg)
-
-# Snapshot of Dashboard (Power BI Service)
-
-![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
 
  
  # Report Snapshot (Power BI DESKTOP)
 
- 
-![Dashboard_upload](https://user-images.githubusercontent.com/102996550/174074051-4f08287a-0568-4fdf-8ac9-6762e0d8fa94.jpg)
+<img width="1427" height="797" alt="Image" src="https://github.com/user-attachments/assets/60b8e4ad-8551-40f7-8eae-93612050ec08" />
+
+
+<img width="1420" height="792" alt="Image" src="https://github.com/user-attachments/assets/00f9f3d8-5162-4d65-ae30-895156e0e39c" />
+
+<img width="1421" height="798" alt="Image" src="https://github.com/user-attachments/assets/e1bce28b-66d4-4256-923b-9f8cde92edb6" />
+
+<img width="1425" height="792" alt="Image" src="https://github.com/user-attachments/assets/26e439fd-3e06-4207-8a6d-fe9fc0654951" />
+
+<img width="1422" height="798" alt="Image" src="https://github.com/user-attachments/assets/c148f25a-7de9-4984-9611-4524bcaf095c" />
+
+
+
+
 
 # Insights
-Ah yes! Let’s include **the period-over-period numbers** in a human-friendly way with figures and percentages so it reads naturally:
-
 ---
 
 ## Key Insights from Dashboard
 
 ### [1] Top Products
-
 * Raymond Suit sold 274 units, generating ₹4.1M in sales and ₹0.14M profit.
 * High-demand, high-margin products — consider focused promotions and inventory planning.
 
@@ -450,9 +464,3 @@ For any two selected periods
 ### [7] Orders
 
 * Total orders reached **X**, showing steady customer activity and demand trends.
-
-
-
-
-A single page report was created on Power BI Desktop & it was then published to Power BI Service.
-
