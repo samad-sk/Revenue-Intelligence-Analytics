@@ -89,7 +89,7 @@ City-level sales and profit analysis helps prioritize strong markets and improve
 Order-level insights support deeper investigation into unusual discounts, low-profit transactions, or customer behavior patterns.
 
  # Report Snapshot (Power BI DESKTOP)
-<img width="1427" height="797" alt="Image" src="https://github.com/user-attachments/assets/60b8e4ad-8551-40f7-8eae-93612050ec08" />
+https://github.com/samad-sk/Revenue-Intelligence-Analytics/blob/main/Assets/Geographic_and_Promotional_Impactt.png
 
 <img width="1420" height="792" alt="Image" src="https://github.com/user-attachments/assets/00f9f3d8-5162-4d65-ae30-895156e0e39c" />
 
