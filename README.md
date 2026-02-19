@@ -89,12 +89,8 @@ City-level sales and profit analysis helps prioritize strong markets and improve
 Order-level insights support deeper investigation into unusual discounts, low-profit transactions, or customer behavior patterns.
 
  # Report Snapshot (Power BI DESKTOP)
-https://github.com/samad-sk/Revenue-Intelligence-Analytics/blob/main/Assets/Geographic_and_Promotional_Impactt.png
-
-<img width="1420" height="792" alt="Image" src="https://github.com/user-attachments/assets/00f9f3d8-5162-4d65-ae30-895156e0e39c" />
-
-<img width="1421" height="798" alt="Image" src="https://github.com/user-attachments/assets/e1bce28b-66d4-4256-923b-9f8cde92edb6" />
-
-<img width="1425" height="792" alt="Image" src="https://github.com/user-attachments/assets/26e439fd-3e06-4207-8a6d-fe9fc0654951" />
-
-<img width="1422" height="798" alt="Image" src="https://github.com/user-attachments/assets/c148f25a-7de9-4984-9611-4524bcaf095c" />
+ <img width="1432" height="798" alt="Image" src="https://github.com/user-attachments/assets/a69fb2d0-fe3c-418a-b19e-892694921034" />
+<img width="1425" height="792" alt="Image" src="https://github.com/user-attachments/assets/c7c17ff2-f24a-49e6-87b2-06e39c162dcb" />
+<img width="1430" height="797" alt="Image" src="https://github.com/user-attachments/assets/9a1cae07-140f-4304-9131-fdad70f489b3" />
+<img width="1430" height="806" alt="Image" src="https://github.com/user-attachments/assets/4acd4b5e-4072-4d89-9903-8ac411d92b8d" />
+<img width="1422" height="798" alt="Image" src="https://github.com/user-attachments/assets/614dc929-64ea-444b-bdd6-393e8ff118e1" />
