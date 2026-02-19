@@ -8,11 +8,11 @@ The Revenue Intelligence Dashboard is an interactive Power BI report designed to
 
 ## 3. Tech Stack
 The dashboard was built using the following tools and technologies:
-• 📊 **Power BI Desktop** – Primary data visualization platform used to design interactive reports and dashboards.
-• 📂 **Power Query** – Data cleaning, transformation, and preprocessing of transactional datasets.
-• 🧠 **DAX (Data Analysis Expressions)** – Developed calculated measures including time intelligence, period comparison , KPI metrics, and profitability analysis.
-• 📝 **Data Modeling (Star Schema)** – Designed a fact table with related dimension tables (Product, Customer, Promotion, Date) to enable efficient filtering and aggregation.
-• 📁 **File Format** – `.pbix` for development and `.png` for dashboard previews.
+- • 📊 **Power BI Desktop** – Primary data visualization platform used to design interactive reports and dashboards.
+- • 📂 **Power Query** – Data cleaning, transformation, and preprocessing of transactional datasets.
+- • 🧠 **DAX (Data Analysis Expressions)** – Developed calculated measures including time intelligence, period comparison , KPI metrics, and profitability analysis.
+- • 📝 **Data Modeling (Star Schema)** – Designed a fact table with related dimension tables (Product, Customer, Promotion, Date) to enable efficient filtering and aggregation.
+- • 📁 **File Format** – `.pbix` for development and `.png` for dashboard previews.
 
 ---
 4. Data Source
@@ -27,44 +27,39 @@ The dataset represents transactional sales data including product details, custo
 - Comparative visuals for sales vs profit across states and promotions
 
 ## Walkthrough of Key Visuals
----  
-### 1. Key KPIs Panel (Top Section)  
+--- 
+#### 1. Key KPIs Panel (Top Section)  
 Shows Total Revenue, Net Sales, Profit, Units Sold, Total Orders, Average Discount (27%), and Return on Discount (1.70).  
 Gives a quick summary of overall business performance and how effective discounts are.
 
----
-### 2. Time Filters Panel  
+#### 2. Time Filters Panel  
 Year, Quarter, and Month slicers allow users to filter the entire dashboard and analyze performance across different time periods.
 
----
-### 3. Sales Trends Over Time (Line Chart)  
+#### 3. Sales Trends Over Time (Line Chart)  
 Displays how sales change over time (daily, monthly, quarterly, yearly).  
 Helps identify busy seasons and slow periods.
 
----
-### 4. Top / Bottom 5 Products (Stacked Bar Chart)  
+#### 4. Top / Bottom 5 Products (Stacked Bar Chart)  
 Shows the top and bottom 5 products based on Sales, Profit, and Quantity Sold.  
 Helps identify best-performing products and those that may need attention.
 
----
-### 5. Period-over-Period Comparison (Column Charts & KPI Cards)  
+#### 5. Period-over-Period Comparison (Column Charts & KPI Cards)  
 Compares Sales, Profit, and Quantity between two selected time periods.  
 Also shows the difference in sales and the percentage growth to measure improvement or decline.
 
----
-### 6. Discount Impact Analysis (Column Chart & KPI Cards)  
+#### 6. Discount Impact Analysis (Column Chart & KPI Cards)  
 Displays average discount by promotion category and calculates Return on Discount (ROD).  
 Helps understand whether discounts are increasing profits or reducing margins.
 
----
-### 7. Regional Performance (Column Chart)  
+
+#### 7. Regional Performance (Column Chart)  
 Compares Sales and Profit across cities.  
 Helps identify strong and weak markets.
 
----
-### 8. Order-Level Detail View (Table Visual)  
+#### 8. Order-Level Detail View (Table Visual)  
 Shows detailed transaction-level data including Sales, Profit, Discount, and Net Sales.  
 Allows deeper analysis of individual orders.
+
 
 ## Business Impact & Insights  
 ---
@@ -72,19 +67,15 @@ Allows deeper analysis of individual orders.
 **1. Revenue Optimization:**  
 Management can identify top-performing and low-performing products, enabling better pricing and product strategy decisions.
 
----
 **2. Discount Effectiveness:**  
 The Return on Discount (ROD) metric helps evaluate whether promotional campaigns are generating profit or simply reducing margins.
 
----
 **3. Performance Tracking:**  
 Period-over-period comparison allows leadership to measure growth, decline, and the impact of strategic decisions over time.
 
----
 **4. Regional Strategy:**  
 City-level sales and profit analysis helps prioritize strong markets and improve performance in weaker regions.
 
----
 **5. Operational Visibility:**  
 Order-level insights support deeper investigation into unusual discounts, low-profit transactions, or customer behavior patterns.
 
