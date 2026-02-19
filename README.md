@@ -16,8 +16,7 @@ The dashboard was built using the following tools and technologies:
 
 ---
 ## 4. Data Source
-
-Source: Simulated retail sales dataset created for analytical and reporting purposes.
+- Source: Simulated retail sales dataset created for analytical and reporting purposes.
 The dataset represents transactional sales data including product details, customer information, promotional campaigns, pricing, discounts, and profit metrics.
 ---
 
