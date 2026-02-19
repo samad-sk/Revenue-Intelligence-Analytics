@@ -66,19 +66,19 @@ Allows deeper analysis of individual orders.
 ---
 ## Business Impact & Insights  
 
-**1. Revenue Optimization:**  
+**1. Improving Revenue Decisions:**  
 Management can identify top-performing and low-performing products, enabling better pricing and product strategy decisions.
 
-**2. Discount Effectiveness:**  
+**2. Discount Impact:**  
 The Return on Discount (ROD) metric helps evaluate whether promotional campaigns are generating profit or simply reducing margins.
 
 **3. Performance Tracking:**  
 Period-over-period comparison allows leadership to measure growth, decline, and the impact of strategic decisions over time.
 
-**4. Regional Strategy:**  
+**4. Regional Performance:**  
 City-level sales and profit analysis helps prioritize strong markets and improve performance in weaker regions.
 
-**5. Operational Visibility:**  
+**5. Transactional Level details:**  
 Order-level insights support deeper investigation into unusual discounts, low-profit transactions, or customer behavior patterns.
 
  ## Report Snapshot (Power BI DESKTOP)
