@@ -11,7 +11,7 @@ The dashboard was built using the following tools and technologies:
 - • 📊 **Power BI Desktop** – Primary data visualization platform used to design interactive reports and dashboards.
 - • 📂 **Power Query** – Data cleaning, transformation, and preprocessing of transactional datasets.
 - • 🧠 **DAX (Data Analysis Expressions)** – Developed calculated measures including time intelligence, period comparison , KPI metrics, and profitability analysis.
-- • 📝 **Data Modeling (Star Schema)** – Designed a fact table with related dimension tables (Product, Customer, Promotion, Date) to enable efficient filtering and aggregation.
+- • 📝 **Data Modeling (Star Schema)** – Structured the data into a star schema by organizing the existing fact table and connecting it to relevant dimension tables (Product, Customer, Promotion, Date)..
 - • 📁 **File Format** – `.pbix` for development and `.png` for dashboard previews.
 
 ---
@@ -23,7 +23,7 @@ The dataset represents transactional sales data including product details, custo
 ## Key Features
 - Interactive filters for Year, Quarter, and Month
 - Drill-down analysis by product, promotion, and location
-- KPIs highlighting revenue sacrificed to discounts and return on discount
+- Executive KPIs including Total Revenue, Total Profit, Average Discount %, and Return on Discount (ROD) , Sales , Profit Growth. 
 - Time-series trend analysis for sales performance
 - Comparative visuals for sales vs profit across states and promotions
 
