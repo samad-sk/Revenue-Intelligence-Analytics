@@ -1,4 +1,4 @@
-# Revenue Intelligence: Sales, Profit & Discount Analysis
+# Revenue Intelligence : Sales, Profit & Discount Analysis
 A dynamic, interactive data visualization tool built to analyze revenue, profitability, discount impact, and product performance—focusing on time-based comparisons, regional trends, and growth insights to support data-driven decision-making.
 
 ## Project Objective
@@ -15,19 +15,21 @@ The dashboard was built using the following tools and technologies:
 - • 📁 **File Format** – `.pbix` for development and `.png` for dashboard previews.
 
 ---
-4. Data Source
+## 4. Data Source
 Source: Simulated retail sales dataset created for analytical and reporting purposes.
 The dataset represents transactional sales data including product details, customer information, promotional campaigns, pricing, discounts, and profit metrics. I
 
-#### Key Features
+### Key Features
 - Interactive filters for Year, Quarter, and Month
 - Drill-down analysis by product, promotion, and location
 - KPIs highlighting revenue sacrificed to discounts and return on discount
 - Time-series trend analysis for sales performance
 - Comparative visuals for sales vs profit across states and promotions
 
+
+---
 ## Walkthrough of Key Visuals
---- 
+
 #### 1. Key KPIs Panel (Top Section)  
 Shows Total Revenue, Net Sales, Profit, Units Sold, Total Orders, Average Discount (27%), and Return on Discount (1.70).  
 Gives a quick summary of overall business performance and how effective discounts are.
@@ -60,9 +62,8 @@ Helps identify strong and weak markets.
 Shows detailed transaction-level data including Sales, Profit, Discount, and Net Sales.  
 Allows deeper analysis of individual orders.
 
-
-## Business Impact & Insights  
 ---
+## Business Impact & Insights  
 
 **1. Revenue Optimization:**  
 Management can identify top-performing and low-performing products, enabling better pricing and product strategy decisions.
