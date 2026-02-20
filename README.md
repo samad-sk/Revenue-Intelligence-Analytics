@@ -87,4 +87,4 @@ Order-level insights support deeper investigation into unusual discounts, low-pr
 <img width="1425" height="792" alt="Image" src="https://github.com/user-attachments/assets/c7c17ff2-f24a-49e6-87b2-06e39c162dcb" />
 <img width="1430" height="797" alt="Image" src="https://github.com/user-attachments/assets/9a1cae07-140f-4304-9131-fdad70f489b3" />
 <img width="1430" height="806" alt="Image" src="https://github.com/user-attachments/assets/4acd4b5e-4072-4d89-9903-8ac411d92b8d" />
-<img width="1322" height="736" alt="Image" src="https://github.com/user-attachments/assets/a88024e1-e20f-4627-8eb9-0ae97dbcb3d5" />
+<img width="1432" height="801" alt="Image" src="https://github.com/user-attachments/assets/8de51005-31ea-4790-b702-a6debf5f3f60" />
