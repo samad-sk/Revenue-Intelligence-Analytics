@@ -6,7 +6,7 @@ The Revenue Intelligence Dashboard is an interactive Power BI report designed to
 
 ---
 
-## 3. Tech Stack
+##  Tech Stack
 The dashboard was built using the following tools and technologies:
 - • 📊 **Power BI Desktop** – Primary data visualization platform used to design interactive reports and dashboards.
 - • 📂 **Power Query** – Data cleaning, transformation, and preprocessing of transactional datasets.
@@ -15,7 +15,7 @@ The dashboard was built using the following tools and technologies:
 - • 📁 **File Format** – `.pbix` for development and `.png` for dashboard previews.
 
 ---
-## 4. Data Source
+## Data Source
 - Source: Simulated retail sales dataset created for analytical and reporting purposes.
 The dataset represents transactional sales data including product details, customer information, promotional campaigns, pricing, discounts, and profit metrics.
 ---
